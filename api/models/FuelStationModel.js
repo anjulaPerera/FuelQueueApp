@@ -7,7 +7,7 @@ let FuelStationModelSchema
     {
             shed_name: {
                 type: String,
-                required: [true, 'Name field is required']
+                // required: [true, 'Name field is required']
             },
             shed_id: {
                 type: mongoose.Schema.Types.ObjectId,
@@ -16,11 +16,11 @@ let FuelStationModelSchema
             },
             city: {
                 type: String,
-                required: [true, 'Location field is required']
+                // required: [true, 'Location field is required']
             },
             avgTime_to_pump: {
                 type: Number,
-                required: [true, 'Please enter average time taking to pump in minutes']
+                // required: [true, 'Please enter average time taking to pump in minutes']
             },
             fuelArrivalTime: {
                 type: Date
@@ -34,7 +34,7 @@ let FuelStationModelSchema
             // },
             fuelStatus:{
                 type : String,
-                
+
             }
 
         },
