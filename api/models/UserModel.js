@@ -30,13 +30,13 @@ let UserSchema = new Schema(
         required : [true,'Password field is required'],
         minlength:8
         },
-    role:{
-        type: String,
-        // required : [true,'Role is required'],
-        default: UserRole.CUSTOMER,
-        },
+    // role:{
+    //     type: String,
+    //     // required : [true,'Role is required'],
+    //     default: UserRole.CUSTOMER,
+    //     },
     phone_number:{
-        type: String,
+        type: Number,
         required : false,
         },
     
