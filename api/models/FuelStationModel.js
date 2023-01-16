@@ -28,12 +28,13 @@ let FuelStationModelSchema
             fuelFinishTime: {
                 type: Date
             },
-            fuelType: {
-                type: String,
-                enum : VehicleType
-            },
+            // fuelType: {
+            //     type: String,
+            //     enum : VehicleType
+            // },
             fuelStatus:{
-                type : String
+                type : String,
+                
             }
 
         },

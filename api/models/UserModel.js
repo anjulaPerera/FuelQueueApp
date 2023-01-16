@@ -36,7 +36,7 @@ let UserSchema = new Schema(
     //     default: UserRole.CUSTOMER,
     //     },
     phone_number:{
-        type: Number,
+        type: String,
         required : false,
         },
     

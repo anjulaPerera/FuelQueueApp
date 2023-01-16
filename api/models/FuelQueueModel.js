@@ -29,14 +29,13 @@ let FuelQueueModelSchema
     enter:{
         type:Boolean,
         enum : Enter
-
     },
     exit:{
-                type : String,
-                enum: Exit, 
-                // required : [true,'Did you pumped fuel before exitting?'],
-                date : Date.now //example
-                },
+        type : String,
+        enum: Exit, 
+        // required : [true,'Did you pumped fuel before exitting?'],
+        date : Date.now //example
+        },
     current_queueLen: {
                 type: Number,
                 default:1,

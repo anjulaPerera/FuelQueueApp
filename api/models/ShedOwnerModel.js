@@ -29,18 +29,10 @@ let ShedOwnerSchema
                 required : [true,'Password field is required'],
                 minlength:8
                 },
-        role:{
-                type: String,
-                default : UserRole.STATION
-                },
         phone_number:{
                 type: String,
                 required : false,
                 },
-        no_of_sheds_own:{
-                type: Number,
-                required : [true,'Please enter no of sheds you own'],
-                        },
         created_date :{
                 type: Date,
                 default: Date.now
